@@ -73,3 +73,15 @@ Stop
 ```
 $ docker-compose down
 ```
+
+## How to Test the Log
+Make some log by hit the endpoints :
+```
+$ curl localhost:8788/error
+$ curl localhost:8788/info
+$ curl localhost:8788/warn
+```
+Navigate kibana on your browser :
+```
+localhost:5601
+```

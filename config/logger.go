@@ -19,6 +19,7 @@ import (
 func InitLog() *logrus.Entry {
 
 	log := logrus.New()
+	log.SetOutput(os.Stdout)
 	log.SetReportCaller(true)
 	log.Formatter = &logrus.TextFormatter{
 		TimestampFormat: "2006-01-02T15:04:05.999Z07:00",
