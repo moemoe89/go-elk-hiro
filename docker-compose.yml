@@ -4,8 +4,8 @@ services:
   app:
     build: .
     volumes:
-      - .:/go/src/github.com/moemoe89/practicing-elk-golang
-    container_name: practice_elk_app
+      - .:/go/src/github.com/moemoe89/go-elk-hiro
+    container_name: go_elk_hiro
     ports:
       - "8788:8788"
     tty: true

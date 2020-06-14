@@ -7,8 +7,8 @@
 package main
 
 import (
-	conf "github.com/moemoe89/practicing-elk-golang/config"
-	"github.com/moemoe89/practicing-elk-golang/routers"
+	conf "github.com/moemoe89/go-elk-hiro/config"
+	"github.com/moemoe89/go-elk-hiro/routers"
 
 	"fmt"
 )

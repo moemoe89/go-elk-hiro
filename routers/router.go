@@ -7,7 +7,7 @@
 package routers
 
 import (
-	ap "github.com/moemoe89/practicing-elk-golang/api"
+	ap "github.com/moemoe89/go-elk-hiro/api"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"

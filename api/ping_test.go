@@ -7,7 +7,7 @@
 package api_test
 
 import (
-	ap "github.com/moemoe89/practicing-elk-golang/api"
+	ap "github.com/moemoe89/go-elk-hiro/api"
 
 	"net/http"
 	"net/http/httptest"

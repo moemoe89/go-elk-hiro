@@ -1,8 +1,8 @@
-[![CircleCI](https://circleci.com/gh/moemoe89/practicing-elk-golang.svg?style=svg)](https://circleci.com/gh/moemoe89/practicing-elk-golang)
-[![codecov](https://codecov.io/gh/moemoe89/practicing-elk-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/moemoe89/practicing-elk-golang)
-[![Go Report Card](https://goreportcard.com/badge/github.com/moemoe89/practicing-elk-golang)](https://goreportcard.com/report/github.com/moemoe89/practicing-elk-golang)
+[![CircleCI](https://circleci.com/gh/moemoe89/go-elk-hiro.svg?style=svg)](https://circleci.com/gh/moemoe89/go-elk-hiro)
+[![codecov](https://codecov.io/gh/moemoe89/go-elk-hiro/branch/master/graph/badge.svg)](https://codecov.io/gh/moemoe89/go-elk-hiro)
+[![Go Report Card](https://goreportcard.com/badge/github.com/moemoe89/go-elk-hiro)](https://goreportcard.com/report/github.com/moemoe89/go-elk-hiro)
 
-# PRACTICING-ELK-GOLANG #
+# GO-ELK-HIRO #
 
 Practicing ELK Stack Using Golang (Echo Framework) as Programming Language, ELK (Elasticsearch Logstash Kibana) as Service
 
@@ -13,7 +13,7 @@ Your project directory structure should look like this
   |
   +--+ src/github.com/moemoe89
   |  |
-  |  +--+ practicing-elk-golang/
+  |  +--+ go-elk-hiro/
   |     |
   |     +--+ main.go
   |        + api/
@@ -39,7 +39,7 @@ Your project directory structure should look like this
 $ mkdir -p src/github.com/moemoe89
 $ cd src/github.com/moemoe89
 $ git clone <url>
-$ mv <cloned directory> practicing-elk-golang
+$ mv <cloned directory> go-elk-hiro
 ```
 
 ## Running Application
